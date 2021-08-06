@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+
+    <style>
+        .login {
+            padding: 0;
+            margin: 0 auto;
+            margin-left: auto;
+            text-align: center;
+        }
+
+        body {
+            background-color: #B8D1C2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <h1>TELA DE CADASTRO</h1>
+        <img src="logo.png">
+        <hr>
+        Nome:
+        <br>
+        <input type="text" id="nome" placeholder="Insira seu nome">
+        <br>
+        Sobrenome:
+        <br>
+        <input type="text" id="sobrenome" placeholder="Insira seu sobrenome">
+        <br>
+        <br>
+        Data de nascimento:
+        <br>
+        <input type="date" id="dataNasc" placeholder="Insira sua data de nascimento">
+        <br>
+        <br>
+        Email:
+        <br>
+        <input type="email" id="email" placeholder="Insira seu email">
+        <br>
+        Confirmar email:
+        <br>
+        <input type="email" id="confEmail" placeholder="Insira seu email">
+        <br>
+        <p id="alerta1"></p>
+        <br>
+        Senha:
+        <br>
+        <input type="text" id="senha" placeholder="Insira sua senha">
+        <br>
+        Confirmar senha:
+        <br>
+        <input type="text" id="confSenha" placeholder="Insira sua senha">
+        <br>
+        <p id="alerta2"></p>
+        <br>
+        Deposito Inicial:
+        <br>
+        <input type="number" id="extrato" value="0.00">
+        <br>
+        <p id="deposito"></p>
+        <br>
+        <button id="cadastrar" onclick="cadastrar2()">CADASTRAR!</button>
+        <button onclick="voltar()">VOLTAR</button>
+        <br>
+        <br>
+    </div>
+
+</body>
+
+</html>
+
+<script src="login.js"></script>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>LOGIN</title>
+
+    <style>
+        .login {
+            padding: 0;
+            margin: 0 auto;
+            margin-left: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <img class = "logoGatinho"src="logo.png">
+        <h1 id = "login">AnimBank</h1>
+        <h1 id = "emailn"  > E-MAIL: </h1> <br><input type="email" id="emailLogin" placeholder="digite seu e-mail" class="emailC" >
+        <h1  id = "senhan">SENHA:  </h1> <br><input type="password" id="senhaLogin" placeholder="digite sua senha" disabled = true>
+        <p id="teclado"></p>
+        <br>
+       <h1 class="logo"> Não faz parte da família AnimBank ? Cadastre-se! </h1>
+        <br>
+        <button class="cadastrar" onclick="cadastrar()"><h1 class= "TC">CADASTRAR</h1></button>
+        <br>
+        <!--<button onclick="nomesCadastrados()">JÁ CADASTRADOS</button> n sei se fica nessa/na tela...-->
+        <p id="lista"></p>
+    </div>
+    <table classe = "login">
+        <p id="tecladinho"></p>
+        <p id="erro"> </p> 
+        <p id="erro1"> </p> 
+    
+        <tr>
+            <td><button class="sete" onclick="teclar7()">7</button></td>
+            <td><button class="oito" onclick="teclar8()">8</button></td>
+            <td><button class="nove" onclick="teclar9()">9</button></td>
+        </tr>
+        <tr>
+            <td><button class="quatro" onclick="teclar4()">4</button></td>
+            <td><button class="cinco" onclick="teclar5()">5</button></td>
+            <td><button class="seis" onclick="teclar6()">6</button></td>
+        </tr>
+        <tr>
+            <td><button class="um" onclick="teclar1()">1</button></td>
+            <td><button class="dois" onclick="teclar2()">2</button></td>
+            <td><button class="tres" onclick="teclar3()">3</button></td>
+            <td><button class="apagar" onclick="teclar10()"><-</button></td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td><button class="zero" onclick="teclar0()">0</button></td>
+            <td></td>
+            <td><button  id= "ok" class="ok" onclick="teclarOK()">OK</button></td>
+           
+            
+        </tr>      
+    </table>
+
+</body>
+
+</html>
+
+<script src="login.js"></script>

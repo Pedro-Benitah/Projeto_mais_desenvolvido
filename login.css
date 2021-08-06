@@ -1,0 +1,368 @@
+
+  
+
+    div{background : #FFFFFF;
+        position: relative;
+        width: 1920px;
+        height: 935px;
+    }
+
+    .logoGatinho
+    {
+        position: absolute;
+        
+        left: 740px;
+        top: 257px;
+    }
+
+    
+    
+   
+    
+    
+   div{ background: url("image.png");
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        left: 0px;
+        top: 0px;
+    }
+   
+    
+    
+    
+    
+
+    #login{
+        position: absolute;
+        width: 723px;
+        height: 15px;
+        left: 216px;
+        top: 224px;
+    
+    
+        font-family: Audiowide;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 130px;
+        line-height: 166px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #37887E;
+       
+    }
+
+    
+
+    
+    
+    #emailn{
+        position: absolute;
+        width: 566px;
+        height: 170px;
+        left: 75px;
+        top: 400px;
+    }
+    
+
+    
+
+    
+    
+    #senhan{
+        position: absolute;
+        width: 566px;
+        height: 161px;
+        left: 75px;
+        top: 560px;
+    }
+    
+   
+    #emailLogin{
+        position: absolute;
+        width: 455px;
+        height: 60px;
+        left: 270px;
+        top: 480px;
+        
+        border: 2px  solid #383838;
+        box-sizing: border-box;
+        border-radius: 45px;
+        font-size: 30px;
+    }
+    #senhaLogin{
+        position: absolute;
+        width: 455px;
+        height: 60px;
+        left: 270px;
+        top: 640px;
+    
+        border: 2px solid #383838;
+        box-sizing: border-box;
+        border-radius: 45px;
+        font-size: 30px
+    }
+
+    
+    #erro
+    { 
+        position: absolute;
+        width: 723px;
+        height: 15px;
+        left: 220px;
+        top: 310px;
+
+
+        font-family:Cambria ;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 780px;
+        display: flex;
+
+        color: #000000;
+    }
+    #erro1
+    {
+        position: absolute;
+        width: 723px;
+        height: 15px;
+        left: 270px;
+        top: 310px;
+
+
+        font-family:Cambria ;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 780px;
+        display: flex;
+
+        color: #000000;
+
+    }
+    
+    #tecladinho{
+        position: absolute;
+        width: 244px;
+        height: 360px;
+        left: 953px;
+        top: 380px;
+    
+        border: 2px solid #484848;
+        box-sizing: border-box;
+        border-radius: 45px;
+    }
+    
+    
+  
+    
+    
+    .zero{
+        position: absolute;
+        width: 71.14px;
+        height: 75.88px;
+        left: 1039.04px;
+        top: 661.12px; 
+
+        border-radius: 45px;
+    }
+    
+    
+
+    
+    
+    .um{
+        position: absolute;
+        width: 71.14px;
+        height: 75.88px;
+        left: 960px;
+        top: 582.08px;
+
+        border-radius: 45px;
+    }
+    
+    
+   
+    
+    
+    .dois{
+        position: absolute;
+        width: 71.14px;
+        height: 75.88px;
+        left: 1039.04px;
+        top: 582.08px;
+
+        border-radius: 45px;
+    }
+    
+    
+   
+    
+    
+    .tres{
+        position: absolute;
+        width: 71.14px;
+        height: 75.88px;
+        left: 1118.08px;
+        top: 582.08px;
+
+        border-radius: 45px;
+    }
+    
+    
+
+    
+    
+    .quatro{
+        position: absolute;
+        width: 71.14px;
+        height: 75.88px;
+        left: 960px;
+        top: 503.04px;
+
+        border-radius: 45px;
+    }
+    
+    
+ 
+    
+    
+    .cinco{
+        position: absolute;
+        width: 71.14px;
+        height: 75.88px;
+        left: 1039.04px;
+        top: 503.04px;
+
+        border-radius: 45px;
+    }
+    
+    
+    
+
+    
+    
+    .seis{
+        position: absolute;
+        width: 71.14px;
+        height: 75.88px;
+        left: 1118.08px;
+        top: 503.04px;
+
+        border-radius: 45px;
+    }
+    
+    
+   
+    
+    
+    .sete{
+        position: absolute;
+        width: 71.14px;
+        height: 75.88px;
+        left: 960px;
+        top: 424px;
+
+        border-radius: 45px;
+    }
+    
+    
+    
+
+    
+    
+    .oito{
+        position: absolute;
+        width: 71.14px;
+        height: 75.88px;
+        left: 1039.04px;
+        top: 424px;
+        border-radius: 45px;
+    }
+    
+
+    
+    
+    .nove{
+        position: absolute;
+        width: 71.14px;
+        height: 75.88px;
+        left: 1118.08px;
+    
+        top: 424px;
+        border-radius: 45px;
+    }
+
+    .apagar{
+        position: absolute;
+        width: 71.14px;
+        height: 75.88px;
+        left: 958.04px;
+        top: 661.12px; 
+
+        border-radius: 45px;
+    }
+    
+    .ok{
+        position: absolute;
+        width: 71.14px;
+        height: 75.88px;
+        left: 1120.04px;
+        top: 661.12px; 
+
+        border-radius: 45px;
+    }
+
+
+ 
+
+
+.logo{position: absolute;
+    width: 624px;
+    height: 79px;
+    left: 225px;
+    top: 716px;
+
+    font-family: Darker Grotesque;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #606060;
+}
+
+
+.cadastrar {position: absolute;
+    width: 235px;
+    height: 69px;
+    left: 416px;
+    top: 840px;
+    border-radius: 40px;
+    position: absolute;
+}
+.TC{
+    position :initial ;
+    width: 261px;
+    height: 69px;
+    left: 446px;
+    top: 855px;
+
+    font-family: Darker Grotesque;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 68px;
+    display: flex;
+    text-align: center;
+    margin:auto;
+
+    color: #606060;
+}
+

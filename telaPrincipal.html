@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="telaPrincipal.css">
+    <title>PRINCIPAL</title>
+
+    <style>
+        .titulo {
+            padding: 0;
+            margin: 0 auto;
+            margin-left: auto;
+            text-align: center;
+        }
+
+        .menu {
+            padding: 0;
+            margin: 0 auto;
+            margin-left: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="titulo">
+        <img class = "logoGatinho"src="logo.png">
+        <h1 id= "Logo" >AnimBank</h1>
+        <p>Logozinha daora do banco</p>
+        <script>lista = JSON.parse(localStorage.cadastros)</script>
+        <script>pessoa = JSON.parse(localStorage.cliente)</script>
+        <p id="welcome"><script> document.getElementById("welcome").innerHTML = `Bem-vindo(a), ${lista[pessoa.posicao].nome} ${lista[pessoa.posicao].sobrenome}`</script></p> 
+        <button class="redondo" onclick="sair()">SAIR</button>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <div class="menu">
+        <p><b>Adicionar valor no seu atual saldo:</b></p>
+        <button  class="redondo" onclick="depositarValor()">DEPOSITAR VALOR EM CONTACORRENTE</button>
+        <p id="depositar"></p>
+        <p id="depositar2"></p>
+        <hr>
+        <p><b>Sacar valor do saldo atual:</b></p>
+        <p><i>Limite de valor a ser sacado: R$ 1,000</i></p>
+        <button class="redondo" onclick="retirarValor()">SACAR VALOR DA CONTACORRENTE</button>
+        <p id="retirar"></p>
+        <p id="retirar2"></p>
+        <br>
+        <hr>
+        <p><b>Visualizar saldo atual:</b></p>
+        <button  class="redondo" onclick="visualizarSaldo()">SALDO ATUAL</button>
+        <p id="visualizar"></p>
+        <hr>
+        <p><b>Transferências:</b></p>
+        <p><i>Limite de valor a ser transferido: R$ 10,000</i></p>
+        <button class="redondo"  onclick="transferirValor()">TRANSFERÊNCIA BANCARIAS</button>
+        <p id="CC"></p>
+        <p id="CC2"></p>
+        <p id="CC3"></p>
+        <hr>
+        <p><b>Visualizar movimentação da conta (valores depositados e valores sacados):</b></p>
+        <button class="redondo" onclick="visualizarExtrato()">EXTRATO</button>
+        <p id="extrato"></p>
+    </div>
+</body>
+
+</html>
+
+<script src="telaPrincipal.js"></script>

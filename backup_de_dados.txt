@@ -1,0 +1,6 @@
+[
+{ nome: "Benitas", sobrenome: "Pedrinho", saldo: 13, nasc: "02/10/1987", email: "benitinho@hotmail.com.br", senha: "123456", posicao: 0, idade: 33, pix1: "", pix2: "", pix3: "","extrato":"","bloqueio":0 },
+{ nome: "Muri", sobrenome: "Vivi", saldo: 50000, nasc: "18/03/2000", email: "vivivivi@yahoo.com", senha: '654321', posicao: 1, idade: 20, pix1: "", pix2: "", pix3: "","extrato":"","bloqueio":0 },
+{ nome: "Pepo", sobrenome: "Felipinho", saldo: 746, nasc: "05/12/1956", email: "pepopiggy@yahoo.com.br", senha: '5251535', posicao: 2, idade: 65, pix1: "", pix2: "", pix3: "","extrato":"","bloqueio":0 },
+{"nome":"Pipo","sobrenome":"Lelet","saldo":3,"nasc":"1997-10-06","email":"letzinha@gmail.com","senha":"123444","posicao":3,"idade":23,"pix1":"","pix2":"","pix3":"","extrato":"","bloqueio":0}
+];
